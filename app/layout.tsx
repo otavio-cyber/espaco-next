@@ -8,27 +8,14 @@ const playfair = Playfair_Display({ subsets: ["latin"], variable: "--font-serif"
 const inter = Inter({ subsets: ["latin"], variable: "--font-sans" })
 
 export const metadata: Metadata = {
+   icons: {
+    icon: "/favicon.ico",
+  },
   title: "Espaço + | Cortinas, Persianas e Soluções Arquitetônicas Hunter Douglas",
   description:
     "Referência em cortinas, persianas, toldos e produtos especiais Hunter Douglas em Ribeirão Preto. Qualidade, tecnologia e sofisticação desde 2001.",
   generator: "v0.app",
-  icons: {
-    icon: [
-      {
-        url: "/icon-light-32x32.png",
-        media: "(prefers-color-scheme: light)",
-      },
-      {
-        url: "/icon-dark-32x32.png",
-        media: "(prefers-color-scheme: dark)",
-      },
-      {
-        url: "/icon.svg",
-        type: "image/svg+xml",
-      },
-    ],
-    apple: "/apple-icon.png",
-  },
+  
 }
 
 export default function RootLayout({
