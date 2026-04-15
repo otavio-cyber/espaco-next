@@ -24,7 +24,7 @@ export function Header() {
       <div className="container mx-auto px-4 lg:px-8">
         <div className="flex h-20 items-center justify-between">
           <Link href="/" className="flex items-center">
-            <Image src="/logoespaççomais.png" alt="Espaço +" width={180} height={60} className="h-18 w-auto" />
+            <Image src="/Logo-espacomais.webp" alt="Espaço +" width={180} height={60} className="h-8 w-auto" />
           </Link>
 
           {/* Desktop Navigation */}

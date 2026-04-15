@@ -9,11 +9,11 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
           <div>
   <Image
-    src="/logo-espaco-mais-footer.png"
+    src="/logo-espacomais-footer.webp"
     alt="Espaço +"
     width={160}
     height={60}
-    className="h-20 w-auto mb-6"
+    className="h-8 w-auto mb-6"
   />
   <p className="text-sm text-primary-foreground/80 leading-relaxed">
     Referência em cortinas, persianas e soluções arquitetônicas desde 2001.
